@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSenderAddrInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  
+  <SenderAddrInfo>
+    <SenderAddr>susan.zeng@fa-software.com</SenderAddr>
+    <SenderDisplayName>曾姗姗</SenderDisplayName>
+    <Password></Password>	
+	<Host>smtp.fa-software.com</Host>
+  </SenderAddrInfo>
+  
+  <SenderAddrInfo>
+    <SenderAddr>yaxiang.li@fa-software.com</SenderAddr>
+    <SenderDisplayName>李亚祥</SenderDisplayName>
+	<Password>SYlyx123</Password>
+	<Host>smtp.fa-software.com</Host>
+  </SenderAddrInfo>
+  
+</ArrayOfSenderAddrInfo>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMenuNav xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <!--大类别-->
+  <MenuNav>
+    <text>发送邮件</text>
+    <items>
+      <!--具体菜单子项-->
+      <MenuNavChild>
+        <text>单独私密邮件</text>
+        <href>/Home/SendEmail</href>
+        <!--设置id是为了让前端框架自动显示这个页面,后面有新增菜单的,可以都不用设置id-->
+        <id>sendEmail</id>
+      </MenuNavChild>      
+    </items>
+  </MenuNav>
+
+  <!--大类别-->
+  <MenuNav>
+    <text>人才招聘</text>
+    <items>
+      <!--具体菜单子项-->
+      <MenuNavChild>
+        <text>招聘计划</text>
+        <href>/Home/Recruit</href>
+        <!--设置id是为了让前端框架自动显示这个页面,后面有新增菜单的,可以都不用设置id-->
+        <id></id>
+      </MenuNavChild>
+    </items>
+  </MenuNav>
+</ArrayOfMenuNav>
